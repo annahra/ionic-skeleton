@@ -1,3 +1,22 @@
 ion-content{
     --padding-top: 2.5rem;
 }
+
+#personal-card{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: auto;
+}
+
+#personal-header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#card-left{
+    padding-top: 16px;
+}
+
+#personal-subtitle{
+    margin-top: 0px;
+}
