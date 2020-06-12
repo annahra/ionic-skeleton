@@ -1,5 +1,19 @@
 ion-content{
-    --padding-top: 2.5rem;
+    --padding-top: 3rem;
+    --background: var(--ion-color-light);
+}
+
+ion-button:hover{
+    --ion-color-base: var(--ion-color-secondary) !important;
+    --ion-color-contrast: var(--ion-color-light) !important;
+}
+
+ion-card-title{
+    color: var(--ion-color-primary);
+}
+
+ion-card-subtitle{
+    color: var(--ion-color-primary);
 }
 
 #personal-card{
@@ -19,4 +33,9 @@ ion-content{
 
 #personal-subtitle{
     margin-top: 0px;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
 }

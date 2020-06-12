@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { AboutPageRoutingModule } from './about-routing.module';
+import { ExperienceComponent } from '../components/experience/experience.component';
 
 import { AboutPage } from './about.page';
 
@@ -15,6 +16,6 @@ import { AboutPage } from './about.page';
     IonicModule,
     AboutPageRoutingModule
   ],
-  declarations: [AboutPage]
+  declarations: [AboutPage, ExperienceComponent]
 })
 export class AboutPageModule {}
