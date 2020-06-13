@@ -11,8 +11,9 @@ ion-button{
 }
 
 ion-button:hover{
-    --ion-color-base: var(--ion-color-primary) !important;
-    --ion-color-contrast: var(--ion-color-light) !important;
+    --ion-color-base: var(--ion-color-light) !important;
+    --ion-color-contrast: var(--ion-color-primary) !important;
+    --box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
 }
 
 ion-card-title{
@@ -39,10 +40,32 @@ ion-card-subtitle{
 
 /*------------ PERSONAL CARD ---------------*/
 
+#svg{
+    height: 40px;
+    //z-index: -2;
+}
+
+#greeting{
+    position: relative;
+    color: var(--ion-color-primary);
+    font-weight: bold;
+    //z-index: 4;
+    padding-left: 80px;
+    
+}
+
+#hi{
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    width: 8%;
+}
+
 #personal-header{
     grid-column-start: 1;
     grid-column-end: 3;
     padding-left: 74px;
+    padding-top: 0px;
 }
 
 #personal-title{
@@ -55,8 +78,9 @@ ion-card-subtitle{
 }
 
 #card-right{
-    padding: 16px;
-    
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
 }
 
 #card-left{
@@ -64,9 +88,6 @@ ion-card-subtitle{
     height: 250px;
 }
 
-#personal-img{
-    // margin-top: 16px;
-}
 
 #info-list{
     display: grid;
@@ -102,8 +123,8 @@ ion-card-subtitle{
     margin-right: 22px;
     --webkit-transition-shadow: none !important;
     --box-shadow: none !important;
+    --background-hover: var(--ion-color-primary);
 }
-
 
 #personal-bottom{
     display: flex;
@@ -139,10 +160,44 @@ ion-card-subtitle{
 
 /*----------------------------------------*/
 
+/*--------------- DOWNLOAD ---------------*/
+
+#download-text{
+    padding-left: 15px;
+}
+
 #download-resume{
     align-self: center;
+    margin: 3rem;
+    width: 250px;
+    height: 50px;
+}
 
-    width: 200px;
+/*-----------------------------------------*/
+
+
+/*--------------- ABOUT---------------*/
+
+#about{
+    align-self: center;
+    text-align: center;
+    line-height: 1.75;
+    width: 800px;
+    height: 100px;
+}
+
+/*-----------------------------------------*/
+
+
+
+
+
+
+
+.section-title{
+    align-self: center;
+    font-size: xx-large;
+    margin-top: 40px;
 }
 
 .section{
