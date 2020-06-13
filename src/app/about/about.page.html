@@ -8,66 +8,59 @@
     </ion-header>
   
   <div class="container">
-    <ion-card id="personal-card">
+    <ion-card class="personal-card">
 
-      <!-- <div id="personal-top"> -->
+      <div id="personal-top">
         <div id="card-left">
-          <ion-grid>
-
-            <ion-row>
-              <img height="245vh" width="250vw" src="../../assets/images/me.jpg">
-            </ion-row>
-
-          </ion-grid>
+          <img id="personal-img" src="../../assets/images/me.jpg">
         </div>
-
 
         <div id="card-right">
 
           <ion-card-header id="personal-header">
-            <ion-card-title> Hi, I'm Annah</ion-card-title>
-            <ion-card-subtitle id="personal-subtitle"> doer of nothings</ion-card-subtitle>
+            <ion-card-title id="personal-title"> I'm <span style="font-weight:bold"> Annah Ramones </span></ion-card-title>
+            <ion-card-subtitle id="personal-subtitle"> Doer of nothings</ion-card-subtitle>
           </ion-card-header>
 
-          <ion-card-content>
-            Hi, I like doing things. I do a lot of things but I also do a little of things,
-            I'm sleepy right now. 
-          </ion-card-content>
+          <div id="info-list">
 
-          <ion-card-content id="info-list">
-            <div class="category">Age</div>
-            <div>26</div>
+            <div class="category">AGE</div>
+            <div class="info">26</div>
+            
 
-            <div class="category">Email</div>
-            <div>annahworks@gmail.com</div>
+            <div class="category">EMAIL</div>
+            <div class="info">annahworks@gmail.com</div>
 
-            <div class="category">Location</div>
-            <div>Southern California</div>
+            <div class="category">LOCATION</div>
+            <div class="info">Southern California</div>
 
-            <div class="category">Education</div>
-            <div>Physics BS, Cal Poly Pomona</div>
+            <div class="category">EDUCATION</div>
+            <div class="info">Physics BS, Cal Poly Pomona</div>
 
-          </ion-card-content>
-          
-          <ion-card-content>
-            <ion-grid>
-              <ion-row>
-                <div class="category">
-                  Social Links
-                </div>
-              </ion-row>
-
-              <ion-row>
-                <ion-col>
-                  <ion-icon name="logo-linkedin"></ion-icon>
-                </ion-col>
-              </ion-row>
-            </ion-grid>
-          </ion-card-content>
+          </div>
 
         </div>
-      <!-- </div> -->
+      </div>
       
+      <div id="personal-bottom">
+
+        <ion-button class="social-butts">
+          <ion-icon slot="icon-only"  name="logo-linkedin"></ion-icon>
+        </ion-button>
+
+        <ion-button class="social-butts">
+          <ion-icon slot="icon-only" name="logo-github"></ion-icon>
+        </ion-button>
+
+        <ion-button class="social-butts">
+          <ion-icon slot="icon-only" name="logo-facebook"></ion-icon>
+        </ion-button>
+
+        <ion-button class="social-butts">
+          <ion-icon slot="icon-only" name="logo-reddit"></ion-icon>
+        </ion-button>
+
+      </div>
     </ion-card>
 
     <ion-button id="download-resume" size="medium" color="light">

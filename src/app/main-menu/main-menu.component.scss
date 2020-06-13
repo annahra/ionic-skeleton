@@ -1,7 +1,7 @@
 ion-toolbar {
-    --background-color: transparent;
+    --background: var(--ion-color-light) !important;
     --ion-color-base: transparent !important;
-  }
+}
 
 ion-header{
   --background: var(--ion-color-light);
