@@ -2,10 +2,31 @@ ion-content{
     --padding-top: 3rem;
     --background: var(--ion-color-light);
 }
+#download-resume{
+    align-self: center;
+
+    width: 200px;
+}
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
 
 ion-button:hover{
-    --ion-color-base: var(--ion-color-secondary) !important;
+    --ion-color-base: var(--ion-color-primary) !important;
     --ion-color-contrast: var(--ion-color-light) !important;
+}
+
+#info-list{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: auto;
+}
+
+ion-button{
+    --ion-color-contrast: var(--ion-color-primary) !important;
 }
 
 ion-card-title{
@@ -20,7 +41,11 @@ ion-card-subtitle{
     display: grid;
     grid-template-columns: 30% 70%;
     height: auto;
+    width: 750px;
+    align-self: center;
 }
+
+
 
 #personal-header{
     grid-column-start: 1;
@@ -35,7 +60,13 @@ ion-card-subtitle{
     margin-top: 0px;
 }
 
-.skills{
-    display: flex;
-    justify-content: center;
+.section{
+    //display: flex;
+    //justify-content: center;
+    margin-top: 25px;
+}
+
+.category{
+    color: var(--ion-color-primary);
+    grid-column-end: 2;
 }
