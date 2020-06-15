@@ -3,28 +3,44 @@
     color: var(--ion-color-secondary);
 }
 
+#date{
+    margin-top: 1rem;
+    color: var(--ion-color-primary);
+    font-weight: bold;
+    font-size: medium;
+}
+
+#employer{
+    margin-top: 0.30rem;
+    font-size: xx-large;
+    color: var(--ion-color-primary);
+}
+
+#title{
+    color: var(--ion-color-primary);
+    margin-top: 0.75rem;
+}
+
 ion-card{
-    height: 250px;
-    max-width: 500px;
+    height: 300px;
+    max-width: 400px !important;
     margin-inline-start: 0rem;
     border-top: 8px solid black;
-    
+    margin: 0;
 }
+
 
 .des{
     color: black;
-    padding-left: 1rem;
-    padding-top: 1rem;
+    //padding-left: 1rem;
+    margin: 1.5rem;
+    line-height: 1.5;
 }
 
-#info{
-    padding-top: 30px;
-}
-
-.container{
-    
-    height: 250px;
-    width: 250px;
+.info{
+    text-align: center;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 
