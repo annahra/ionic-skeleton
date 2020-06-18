@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
+import { RatingModule } from 'ng-starrating';
 import { IonicModule } from '@ionic/angular';
 
 import { AboutPageRoutingModule } from './about-routing.module';
@@ -14,7 +15,8 @@ import { AboutPage } from './about.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    AboutPageRoutingModule
+    AboutPageRoutingModule,
+    RatingModule
   ],
   declarations: [AboutPage, ExperienceComponent]
 })
