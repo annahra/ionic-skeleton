@@ -338,7 +338,7 @@ ion-card-subtitle{
         top: 0;
         bottom: 0;
         left: 50%;
-        border-left: $border;
+        border-left: 1px solid $timeline;
         @include mq-lg {
           border-left: 1px solid $timeline;
           margin-top: $head-height / 2;
