@@ -198,6 +198,12 @@ ion-card-subtitle{
     background-color: var(--ion-color-light);
 }
 
+.skill{
+    font-size: 20px;
+    margin: 10px;
+    
+}
+
 /*-----------------------------------------*/
 
 /*--------------- TIMELINE---------------*/
@@ -229,7 +235,7 @@ ion-card-subtitle{
   }
   
   $background: var(--ion-color-light);
-  $box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
+  $box-shadow: 5px 6px 27px 9px rgba(0, 0, 0, 0.07);
   $border: 1px solid rgba(191, 191, 191, 0.4);
   $items: 8;
   $rows: ceil($items/2);
